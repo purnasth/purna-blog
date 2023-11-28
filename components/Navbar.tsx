@@ -11,7 +11,7 @@ const Navbar = () => {
     //   href: "/about",
     // },
     {
-      name: "Logo",
+      name: "Purna-blog",
       href: "/",
     },
     // {
@@ -25,12 +25,12 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="w-full bg-red-500 sticky top-0 p-4">
+    <div className="w-full sticky top-0 py-4 bg-bg-clr">
       <div className="flex items-center justify-around space-x-4">
         {navLinks.map((link) => (
           <Link
             href={link.href}
-            className="text-white hover:text-gray-200 text-sm font-medium"
+            className="text-text-clr hover:text-gray-200 font-medium"
           >
             {link.name}
           </Link>

@@ -11,8 +11,17 @@ export default function RootLayout({
 
   const footer = (
     <footer>
-      <div className="border-t border-slate-500 mt-6 py-6 text-center text-slate-600">
-        <p>Created by Anubhav </p>
+      <div className="border-t border-slate-500 mt-6 py-6 text-center text-light-green-clr/50">
+        <p>
+          Created by{" "}
+          <Link
+            href="https://purnashrestha.com.np"
+            target="_blank"
+            className="hover:underline"
+          >
+            Purna Shrestha
+          </Link>{" "}
+        </p>
       </div>
     </footer>
   );

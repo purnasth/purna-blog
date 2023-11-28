@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  body {
+    @apply bg-bg-clr text-text-clr font-serif text-xl md:text-xl;
+  }
+  h2 {
+    @apply text-xl md:text-2xl font-bold py-4;
+  }
+  .red {
+    @apply text-red-500;
+  }
+}
