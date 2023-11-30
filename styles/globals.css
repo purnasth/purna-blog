@@ -6,10 +6,10 @@
   body {
     @apply bg-bg-clr text-text-clr font-serif text-xl md:text-xl;
   }
-  h2 {
-    @apply text-xl md:text-2xl font-bold py-4;
+  h3 {
+    @apply text-lg md:text-xl font-medium py-4;
   }
-  .red {
-    @apply text-red-500;
+  p {
+    @apply py-2;
   }
 }

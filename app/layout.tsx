@@ -26,7 +26,7 @@ export default function RootLayout({
     </footer>
   );
   return (
-    <html>
+    <html lang="en">
       <head />
       <body className="mx-auto w-full md:w-[70%] px-6">
         {header}
