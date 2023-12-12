@@ -6,6 +6,8 @@ author: "Purna Shrestha"
 date: "2023-11-27"
 ---
 
+<!-- <img src="https://www.purnashrestha.com.np/assets/img/purna%20pp%20replace.png" alt="GitHub Octocat" style="width: 100%; height: 400px; object-fit:cover;"/> -->
+
 “I wish my life were a GitHub repository so that I could roll back to my last stable version.”
 
 Drowning under the weight of life issues, but guess what? I chose to resolve issues on GitHub—just not my own.

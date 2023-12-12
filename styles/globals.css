@@ -4,12 +4,33 @@
 
 @layer components {
   body {
-    @apply bg-bg-clr text-text-clr font-serif text-xl md:text-xl;
+    @apply bg-bg-clr text-light-green-clr/80 font-serif tracking-wider text-xl md:text-xl;
   }
   h3 {
     @apply text-lg md:text-xl font-medium py-4;
   }
   p {
     @apply py-2;
+  }
+
+  ::selection {
+    @apply bg-light-green-clr text-bg-clr;
+  }
+
+  ::-webkit-scrollbar {
+    width: 0.3em;
+    background-color: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #e1f7eb;
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #ffe194;
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
   }
 }
